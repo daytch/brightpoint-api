@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:poin="urn:simplicitycrm:loyalty/pointofsale"
+    xmlns:sim="http://schemas.datacontract.org/2004/07/Simplicity.Service.Interface">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <poin:Authenticate>
+            <poin:request>
+                <!-- <sim:AccountName>gpitespartner01+pertamina@gmail.com</sim:AccountName> -->
+                <sim:AccountName>username</sim:AccountName>
+                <!-- <sim:SecurityCode>ZOyHr0G={)]]G5^.GC7E</sim:SecurityCode> -->
+                <sim:SecurityCode>password</sim:SecurityCode>
+            </poin:request>
+        </poin:Authenticate>
+    </soapenv:Body>
+</soapenv:Envelope>
